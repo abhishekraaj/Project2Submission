@@ -1,0 +1,30 @@
+.main{
+  padding: 5em;
+  display: flex;
+  justify-content: space-around;
+  height: 20vh;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(119,69,83,1) 0%, rgba(201,39,127,1) 49%, rgba(40,14,27,1) 93%);
+  color: white;
+}
+.griding{
+  display: grid;
+  grid-template-columns: 8em 8em 8em;
+  grid-column-gap: 5em;
+  justify-content: space-evenly;
+  /* width: 20em; */
+}
+.links{
+  margin-right: 1em;
+}
+
+@media screen and (max-width : 700px) {
+  .main{
+    width: 195%;
+    height: 40vh;
+  }
+
+  .copy{
+    width: 235%;
+  }
+}
